@@ -1,0 +1,9 @@
+<div class="data-card">
+  <h2>Dashboard</h2>
+  <p>Wallet: ₹{{ wallet }}</p>
+</div>
+
+<div class="data-card" *ngFor="let b of buses">
+  <p>{{ b.name }} - {{ b.from }} → {{ b.to }} - ₹{{ b.fare }}</p>
+  <button (click)="book(b)">Book Now</button>
+</div>

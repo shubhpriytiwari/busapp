@@ -1,0 +1,42 @@
+@import '../shared/form-styles.css';
+
+/* Make table scrollable inside the card */
+.data-card {
+  width: 95%;             /* allow some margin for bigger screens */
+  max-width: 800px;       /* maximum width */
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+  text-align: center;
+  overflow-x: auto;       /* allow horizontal scroll if table is too wide */
+}
+
+/* Table adjustments */
+.data-table {
+  width: 100%;             /* full width of the card */
+  border-collapse: collapse;
+  table-layout: fixed;     /* fixes cell widths */
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+  word-wrap: break-word;   /* wrap long text */
+}
+
+.data-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+  background-color: #e6f0ff;
+}

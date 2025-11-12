@@ -1,0 +1,90 @@
+/* Container for forms and cards */
+.form-container {
+  width: 320px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+/* Headings */
+.form-container h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.form-container input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Buttons */
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-container button:hover {
+  background: #0056b3;
+}
+
+/* Error messages */
+.form-container .error {
+  color: red;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+/* Card for data display (Booking/Dashboard) */
+.data-card {
+  width: 320px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Tables (History) */
+.data-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+  background-color: #e6f0ff;
+}

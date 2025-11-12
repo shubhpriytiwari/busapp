@@ -1,0 +1,45 @@
+@import '../shared/form-styles.css';  /* import your shared styles */
+
+/* Main card container */
+.data-card {
+  width: 95%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+  text-align: center;
+  overflow-x: auto;  /* optional for small screens */
+}
+
+/* Individual bus card */
+.bus-card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.bus-card p {
+  margin: 4px 0;
+}
+
+.bus-card button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.bus-card button:hover {
+  background-color: #0056b3;
+}
